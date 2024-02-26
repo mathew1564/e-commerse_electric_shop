@@ -1,0 +1,20 @@
+.body{
+    margin-top: 14px;
+    position: relative;
+    
+}
+.scroll-container {
+    height: calc(100vh - 75px) ;
+    overflow-y: auto;
+    position: sticky;
+    top: 75px;
+  }
+  
+  .scroll-container::-webkit-scrollbar {
+    width: 0px;
+  }
+  
+  .scroll-content {
+    
+    height: fit-content;
+  }

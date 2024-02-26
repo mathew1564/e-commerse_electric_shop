@@ -1,0 +1,14 @@
+.link{
+    font-size: .875rem;
+  }
+  .link a{
+      text-decoration: none;
+      color: gray;
+    
+  }
+  .link a::after{
+      content: " / " ;
+      color: #333;
+      font-size: .875rem;
+  }
+  

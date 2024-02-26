@@ -1,0 +1,31 @@
+.footer{
+    font-size: 16px;
+    max-width: 100vw;
+    background-color: #fff;
+    max-height: 100vh;
+    padding-top:20px ;
+    margin: auto;
+    padding-bottom:10px ;
+    margin-top: 40px;
+
+}
+.content-footer{
+   font-size: .875rem;
+   padding-bottom: 30px;
+}
+.footer-left{
+    text-align: left;
+}
+.ul-footer{
+    display: flex;
+    list-style-type: none;
+    gap: 1rem;
+    margin-left: -31px;
+    font-size: 14px;
+    
+}
+.ul-footer a{
+    text-decoration: none;
+    padding-right:20px ;
+    border-right: 1px solid gray ;
+}

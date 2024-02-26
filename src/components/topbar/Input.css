@@ -1,0 +1,23 @@
+.Inputchild {
+    background-color: #fff;
+    width:100%;
+    
+    
+}
+.title {
+    margin: auto;
+}
+.title-search {
+    align-items: center;
+    font-weight: bold;
+    margin: 15px 0px 0px 20px;
+    font-size: small;
+
+}
+
+@media only screen and (min-width: 390px) and (max-width:840px) {
+    .title {
+        margin: auto;
+        font-size: 10px;
+    }
+}

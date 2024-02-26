@@ -1,0 +1,15 @@
+.site-content {
+    display: inline-flex;
+    margin-left: 10px;
+    font-size: 0.9rem;
+}
+.site-container {
+    
+    margin:10px 0px 20px 20px;
+}
+.site-container:hover {
+    cursor: pointer;
+}
+.site-icon {
+    font-size: 1.3rem;
+}

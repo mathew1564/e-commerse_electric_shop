@@ -1,0 +1,111 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+
+.container-navbar {
+   background-color: #003463;
+   max-height: 95px;
+   margin-top: 10px;
+   z-index: 2;
+   border-bottom: 1px solid #efefef;
+}
+
+.navbar {
+   width: 1320px;
+   max-height: 95px;
+   margin:  auto; 
+}
+.nav-left{
+   display: flex;
+   gap:1.5rem;
+}
+.nav-right{
+   display: flex;
+   justify-content: right;
+}
+.nav .nav-link:hover{
+   color: white;
+}
+
+.nav .nav-link:focus{
+   color: white;
+}
+
+
+
+.nav .home-item,
+.nav .product-item,
+.nav .blog-item,
+.nav .store-item {
+   color: white;
+   text-decoration: none;
+   font-weight: 600;
+   font-size: .875rem;
+   margin-top: 36px;
+   padding: 1px;
+   padding-top: 8px;
+   display: inline-block;
+   gap: 2rem
+}
+
+
+.nav .mail-item,
+.nav .add-item,
+.nav .dropdown .btn {
+   text-decoration: none;
+   color: rgb(255, 255, 255);
+   font-size: .875rem;
+   text-align: right;
+   flex-shrink: 0;
+   margin-left: 20px;
+   margin-top: 35px;
+   padding: 1px;
+   padding-top: 10px;
+   display: inline-block;
+}
+
+@media only screen and (min-width: 992.97px) and (max-width: 1440px) {
+   .nav .add-item {
+     display: none;
+   }
+}
+
+.nav .dropdown .btn {
+   font-size: 0.9rem;
+   padding: 0.35rem .95rem;
+   background-color: #012644;
+   border: #012644;
+   border-radius: 0;
+   margin-top: 41px;
+}
+.nav .dropdown .btn :hover{
+   background-color:#003463 ;
+}
+.nav .dropdown .sale-item {
+   color: black;
+}
+
+.nav .dropdown .phone-item {
+   color: black;
+   margin-left: 10px;
+   font-size: 15px;
+   
+}
+
+.nav .dropdown .icon {
+   color: rgb(118, 204, 235);
+}
+.dropdown-nav-contact{
+ 
+}
+/*Active nav*/
+.active-top-nav span::after {
+   content: "";
+   display:block;
+   width: 80%;
+   height: 1px;
+   background-color: #efefef;
+   margin-top: 2px!important;
+   margin: auto;
+}

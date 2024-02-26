@@ -1,0 +1,39 @@
+.filter{
+    z-index: 99;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.dropdown .btn-filter{
+    border-radius: 0px !important;
+    background-color: #fff ;
+    border: #fff;
+    color: #333333;
+    padding: 14px;
+    font-size: .8rem;
+}
+
+.dropdown .btn-filter:hover{
+    background-color: #F0F2F5 !important;
+    color: #333333 !important;
+}
+.fit-filter{
+    display: flex ;
+    justify-content: space-between ;
+    background-color: #fff;
+    border: 1px solid #eee;
+}
+/* phần chữ của các option*/ 
+.dropdown .btn-filter b{
+    font-weight:600  !important;
+}
+
+/*icon*/
+.icon-filter{
+    font-size: 1.2rem;
+    font-weight: lighter;
+}
+/* ẩn dấu mũi tên xuống trong bs*/
+.dropdown-toggle::after{
+    content: none !important;
+} 

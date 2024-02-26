@@ -1,0 +1,17 @@
+.contact-container {
+    display: inline-flex;    
+    font-size: 0.9rem;
+    justify-content: space-between;
+    width: 100%;
+  
+  
+}
+.contact-content {
+    display: inline-block; 
+    float: left;
+}
+.contact-infor {
+    display: inline-block; 
+    float: right;
+    font-weight: bold;
+}
